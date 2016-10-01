@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indianfv.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NcB-lR-2Km">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ma made it 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="yeo-je-2MB">
+                                <rect key="frame" x="72" y="292" width="230" height="83"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="E3f-VC-31A"/>
+                                    <constraint firstAttribute="width" constant="230" id="Xpe-oy-jT1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2015 Ma Made It. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Sdz-AM-rdi">
+                                <rect key="frame" x="-93" y="626" width="560" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="0fK-zZ-km8"/>
+                                    <constraint firstAttribute="height" constant="21" id="9dY-QS-6eB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Sdz-AM-rdi" secondAttribute="bottom" constant="20" id="EhS-bH-Xd0"/>
+                            <constraint firstItem="NcB-lR-2Km" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Meq-dI-7YA"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="NcB-lR-2Km" secondAttribute="bottom" id="Q5D-P0-Pya"/>
+                            <constraint firstItem="NcB-lR-2Km" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="U5l-uw-ON3"/>
+                            <constraint firstItem="Sdz-AM-rdi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eCO-pW-oKX"/>
+                            <constraint firstItem="yeo-je-2MB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gaq-tC-x7n"/>
+                            <constraint firstItem="NcB-lR-2Km" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="r3n-mY-oU5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NcB-lR-2Km" secondAttribute="trailing" constant="-20" id="rb4-gA-eBz"/>
+                            <constraint firstItem="yeo-je-2MB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="sw9-ha-Asn"/>
+                            <constraint firstItem="NcB-lR-2Km" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yDI-kP-w1Z"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="indianfv.jpg" width="1696" height="1132"/>
+        <image name="ma made it 2.png" width="431" height="96"/>
+    </resources>
+</document>
